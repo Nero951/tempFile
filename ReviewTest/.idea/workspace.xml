@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f6ccbd3-83d9-473b-a107-c60defd41c1c" name="Default Changelist" comment="" />
+    <list default="true" id="7f6ccbd3-83d9-473b-a107-c60defd41c1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test2/src/solution1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test2/src/solution1/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test2/src/solution1/Min.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test2/src/solution1/UnusualAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test2/src/solution1/minSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Gift.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/META-INF/Test1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/META-INF/Test2.kotlin_module" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -29,6 +42,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1kjLjpLkIb1Z0sjO6Fgydo10Gnm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,15 +59,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.21386719" />
     <property name="project.structure.side.proportion" value="0.17073172" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.MaxAdd">
-    <configuration name="CountStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.CountStep" />
+  <component name="RunManager" selected="Application.UnusualAdd">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution1.Main" />
       <module name="Test2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.*" />
+          <option name="PATTERN" value="solution1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.MainTest" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution1.Main1" />
       <module name="Test2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.*" />
+          <option name="PATTERN" value="solution1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.Square" />
+    <configuration name="Min" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution1.Min" />
       <module name="Test2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.*" />
+          <option name="PATTERN" value="solution1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.print" />
+    <configuration name="UnusualAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution1.UnusualAdd" />
       <module name="Test2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.*" />
+          <option name="PATTERN" value="solution1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UnusualAdd" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Min" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MaxAdd" />
-        <item itemvalue="Application.Square" />
-        <item itemvalue="Application.print" />
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.CountStep" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +153,7 @@
       <workItem from="1606819960458" duration="14975000" />
       <workItem from="1607158716789" duration="19778000" />
       <workItem from="1607425239912" duration="8544000" />
+      <workItem from="1607518467300" duration="17717000" />
     </task>
     <servers />
   </component>
@@ -156,22 +173,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1607426707564" />
-    <state width="1311" height="143" key="GridCell.Tab.0.bottom" timestamp="1607433162728">
+    <state width="1308" height="143" key="GridCell.Tab.0.bottom" timestamp="1607582593548">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1311" height="143" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607433162728" />
-    <state width="1311" height="143" key="GridCell.Tab.0.center" timestamp="1607433162728">
+    <state width="1308" height="143" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607582593548" />
+    <state width="1308" height="143" key="GridCell.Tab.0.center" timestamp="1607582593548">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1311" height="143" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607433162728" />
-    <state width="1311" height="143" key="GridCell.Tab.0.left" timestamp="1607433162728">
+    <state width="1308" height="143" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607582593548" />
+    <state width="1308" height="143" key="GridCell.Tab.0.left" timestamp="1607582593548">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1311" height="143" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607433162728" />
-    <state width="1311" height="143" key="GridCell.Tab.0.right" timestamp="1607433162728">
+    <state width="1308" height="143" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607582593548" />
+    <state width="1308" height="143" key="GridCell.Tab.0.right" timestamp="1607582593548">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1311" height="143" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607433162728" />
+    <state width="1308" height="143" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607582593548" />
     <state width="1324" height="239" key="GridCell.Tab.1.bottom" timestamp="1606908540209">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -188,10 +205,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="239" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1606908540209" />
-    <state x="211" y="0" key="SettingsEditor" timestamp="1607433141787">
+    <state x="211" y="0" key="SettingsEditor" timestamp="1607583532427">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="211" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1607433141787" />
+    <state x="211" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1607583532427" />
     <state x="414" y="150" key="extract.method.dialog" timestamp="1607431051762">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
