@@ -12,7 +12,7 @@ public class UnusualAdd {
     }
     //TODO 饥饿的小易
     public static int hungry(long x){
-        
+
         return 0;
     }
 

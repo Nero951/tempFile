@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f6ccbd3-83d9-473b-a107-c60defd41c1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test2/src/solution1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test2/src/solution1/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test2/src/solution1/Min.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test2/src/solution1/UnusualAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test2/src/solution1/minSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test2/src/solution1/solutionMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Gift.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/META-INF/Test1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/META-INF/Test2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test2/src/solution/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/solution/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test2/src/solution1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/solution1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test2/src/solution1/UnusualAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/solution1/UnusualAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution/Main6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test2/solution/Main6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test2/solution1/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
     <property name="project.structure.side.proportion" value="0.17073172" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.UnusualAdd">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution1.Main" />
       <module name="Test2" />
@@ -88,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.MaxAdd" />
+    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.Main6" />
       <module name="Test2" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main6" />
         <item itemvalue="Application.UnusualAdd" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Min" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MaxAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +151,7 @@
       <workItem from="1606819960458" duration="14975000" />
       <workItem from="1607158716789" duration="19778000" />
       <workItem from="1607425239912" duration="8544000" />
-      <workItem from="1607518467300" duration="17717000" />
+      <workItem from="1607518467300" duration="29430000" />
     </task>
     <servers />
   </component>
@@ -173,22 +171,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1607426707564" />
-    <state width="1308" height="143" key="GridCell.Tab.0.bottom" timestamp="1607582593548">
+    <state width="1308" height="143" key="GridCell.Tab.0.bottom" timestamp="1607685704753">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1308" height="143" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607582593548" />
-    <state width="1308" height="143" key="GridCell.Tab.0.center" timestamp="1607582593548">
+    <state width="1308" height="143" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607685704753" />
+    <state width="1308" height="143" key="GridCell.Tab.0.center" timestamp="1607685704752">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1308" height="143" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607582593548" />
-    <state width="1308" height="143" key="GridCell.Tab.0.left" timestamp="1607582593548">
+    <state width="1308" height="143" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607685704752" />
+    <state width="1308" height="143" key="GridCell.Tab.0.left" timestamp="1607685704752">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1308" height="143" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607582593548" />
-    <state width="1308" height="143" key="GridCell.Tab.0.right" timestamp="1607582593548">
+    <state width="1308" height="143" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607685704752" />
+    <state width="1308" height="143" key="GridCell.Tab.0.right" timestamp="1607685704752">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1308" height="143" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607582593548" />
+    <state width="1308" height="143" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607685704752" />
     <state width="1324" height="239" key="GridCell.Tab.1.bottom" timestamp="1606908540209">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
