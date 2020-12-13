@@ -55,7 +55,7 @@
     <property name="project.structure.side.proportion" value="0.17073172" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.solutionMain">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution1.Main" />
       <module name="Test2" />
@@ -95,19 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Min" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution1.Min" />
-      <module name="Test2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UnusualAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution1.UnusualAdd" />
       <module name="Test2" />
@@ -121,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="solutionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution1.solutionMain" />
+      <module name="Test2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.solutionMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main6" />
         <item itemvalue="Application.UnusualAdd" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Min" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +147,7 @@
       <workItem from="1606819960458" duration="14975000" />
       <workItem from="1607158716789" duration="19778000" />
       <workItem from="1607425239912" duration="8544000" />
-      <workItem from="1607518467300" duration="35500000" />
+      <workItem from="1607518467300" duration="36427000" />
     </task>
     <servers />
   </component>
@@ -167,22 +167,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1607426707564" />
-    <state width="1308" height="143" key="GridCell.Tab.0.bottom" timestamp="1607685704753">
+    <state width="1308" height="143" key="GridCell.Tab.0.bottom" timestamp="1607754184802">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1308" height="143" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607685704753" />
-    <state width="1308" height="143" key="GridCell.Tab.0.center" timestamp="1607685704752">
+    <state width="1308" height="143" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607754184802" />
+    <state width="1308" height="143" key="GridCell.Tab.0.center" timestamp="1607754184802">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1308" height="143" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607685704752" />
-    <state width="1308" height="143" key="GridCell.Tab.0.left" timestamp="1607685704752">
+    <state width="1308" height="143" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607754184802" />
+    <state width="1308" height="143" key="GridCell.Tab.0.left" timestamp="1607754184801">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1308" height="143" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607685704752" />
-    <state width="1308" height="143" key="GridCell.Tab.0.right" timestamp="1607685704752">
+    <state width="1308" height="143" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607754184801" />
+    <state width="1308" height="143" key="GridCell.Tab.0.right" timestamp="1607754184802">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1308" height="143" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607685704752" />
+    <state width="1308" height="143" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607754184802" />
     <state width="1324" height="239" key="GridCell.Tab.1.bottom" timestamp="1606908540209">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

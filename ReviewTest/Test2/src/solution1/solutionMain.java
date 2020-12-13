@@ -1,7 +1,6 @@
 package solution1;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -22,21 +21,23 @@ public class solutionMain {
     static ArrayList<String> list = new ArrayList<>();
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
-        while(scan.hasNext()){
-            list.clear();
-            int num = scan.nextInt();
-            int[] train = new int[num];
-            Stack<Integer> stack = new Stack<>();
-            for (int i = 0; i<num; i++) {
-                train[i] = scan.nextInt();
-            }
-            trainIntoStation(train, 0, stack, " ", 0);
-            Collections.sort(list);
-            for (String str: list){
-                System.out.println(str);
-            }
-        }
+        solutionMain test = new solutionMain();
+        solutionMain testB = new solutionMain();
+        System.out.println(test.equals(testB)+" , "+test.name.equals(testB.name));
+//        while(scan.hasNext()){
+//            list.clear();
+//            int num = scan.nextInt();
+//            int[] train = new int[num];
+//            Stack<Integer> stack = new Stack<>();
+//            for (int i = 0; i<num; i++) {
+//                train[i] = scan.nextInt();
+//            }
+//            trainIntoStation(train, 0, stack, " ", 0);
+//            Collections.sort(list);
+//            for (String str: list){
+//                System.out.println(str);
+//            }
+//        }
     }
     //TODO 火车进站
     static void trainIntoStation(int[] train, int i, Stack<Integer> stack, String str, int n){
