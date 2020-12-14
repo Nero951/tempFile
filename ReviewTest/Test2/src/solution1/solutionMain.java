@@ -24,20 +24,6 @@ public class solutionMain {
         solutionMain test = new solutionMain();
         solutionMain testB = new solutionMain();
         System.out.println(test.equals(testB)+" , "+test.name.equals(testB.name));
-//        while(scan.hasNext()){
-//            list.clear();
-//            int num = scan.nextInt();
-//            int[] train = new int[num];
-//            Stack<Integer> stack = new Stack<>();
-//            for (int i = 0; i<num; i++) {
-//                train[i] = scan.nextInt();
-//            }
-//            trainIntoStation(train, 0, stack, " ", 0);
-//            Collections.sort(list);
-//            for (String str: list){
-//                System.out.println(str);
-//            }
-//        }
     }
     //TODO 火车进站
     static void trainIntoStation(int[] train, int i, Stack<Integer> stack, String str, int n){
