@@ -21,9 +21,10 @@ public class solutionMain {
     static ArrayList<String> list = new ArrayList<>();
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        solutionMain test = new solutionMain();
-        solutionMain testB = new solutionMain();
-        System.out.println(test.equals(testB)+" , "+test.name.equals(testB.name));
+        int n = scan.nextInt();
+        int v = scan.nextInt();
+        int[] arr = {1,1,2,3,7,7,7,9,9,10};
+        System.out.println(upper_bound_(n, v, arr));
     }
     //TODO 火车进站
     static void trainIntoStation(int[] train, int i, Stack<Integer> stack, String str, int n){
@@ -55,5 +56,40 @@ public class solutionMain {
             Mirror(root.left);
         if (root.right != null)
             Mirror(root.right);
+    }
+    //二分查找
+    static int upper_bound_ (int n, int v, int[] a) {
+        int left = 0;
+        int right = n-1;
+        int mid = (left+right)/2;
+        while(left<=right){
+            if(mid>0 && a[mid-1]>=v){
+                right = mid-1;
+                mid = (left+right)/2;
+            }else if(a[mid]<v){
+                left = mid+1;
+                mid = (left+right)/2;
+            }else{
+                return mid+1;
+            }
+        }
+        return n+1;
+    }
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int[] nums = new int[nums1.length+nums2.length];
+        int n = 0;
+        for(int i = 0; i<nums1.length; i++){
+            for(int j = 0; j<nums2.length; j++){
+                if(nums1[i]<=nums2[j]){
+                    nums[n] = nums1[i];
+                    n++;
+                    break;
+                }else{
+                    nums[n] = nums2[j];
+                    n++;
+                }
+            }
+        }
+        return nums[(nums.length)/2];
     }
 }
