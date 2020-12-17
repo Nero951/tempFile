@@ -21,10 +21,21 @@ public class solutionMain {
     static ArrayList<String> list = new ArrayList<>();
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
-        int v = scan.nextInt();
-        int[] arr = {1,1,2,3,7,7,7,9,9,10};
-        System.out.println(upper_bound_(n, v, arr));
+//        int[] arr = {1,1,2,3,7,7,7,9,9,10};
+//        System.out.println(upper_bound_(n, v, arr));
+        while (scan.hasNext()) {
+            int n = scan.nextInt();
+            int v = scan.nextInt();
+            int[] arr1 = new int[n];
+            int[] arr2 = new int[v];
+            for(int i = 0; i<n; i++){
+                arr1[i] = scan.nextInt();
+            }
+            for(int i = 0; i<v; i++){
+                arr2[i] = scan.nextInt();
+            }
+            System.out.println(findMedianSortedArrays(arr1, arr2));
+        }
     }
     //TODO 火车进站
     static void trainIntoStation(int[] train, int i, Stack<Integer> stack, String str, int n){
@@ -75,8 +86,8 @@ public class solutionMain {
         }
         return n+1;
     }
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int[] nums = new int[nums1.length+nums2.length];
+    public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int[] nums = new int[nums1.length+nums2.length]; 
         int n = 0;
         for(int i = 0; i<nums1.length; i++){
             for(int j = 0; j<nums2.length; j++){

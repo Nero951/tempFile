@@ -150,7 +150,8 @@
       <workItem from="1607518467300" duration="36427000" />
       <workItem from="1607866648821" duration="1846000" />
       <workItem from="1608029080533" duration="7373000" />
-      <workItem from="1608104504497" duration="1154000" />
+      <workItem from="1608104504497" duration="3872000" />
+      <workItem from="1608186564691" duration="2984000" />
     </task>
     <servers />
   </component>
@@ -166,6 +167,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="488" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1607699718092" />
+    <state x="383" y="86" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1608121415890">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="383" y="86" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.768@0.0.1366.768" timestamp="1608121415890" />
     <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1607426707564">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
