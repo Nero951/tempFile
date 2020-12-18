@@ -84,7 +84,7 @@ public class solutionMain {
                 return mid+1;
             }
         }
-        return n+1;
+        return n;
     }
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] nums = new int[nums1.length+nums2.length]; 
