@@ -89,18 +89,19 @@ public class solutionMain {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] nums = new int[nums1.length+nums2.length]; 
         int n = 0;
-        for(int i = 0; i<nums1.length; i++){
-            for(int j = 0; j<nums2.length; j++){
-                if(nums1[i]<=nums2[j]){
-                    nums[n] = nums1[i];
+        for (int item : nums1) {
+            for (int value : nums2) {
+                if (item <= value) {
+                    nums[n] = item;
                     n++;
                     break;
-                }else{
-                    nums[n] = nums2[j];
+                } else {
+                    nums[n] = value;
                     n++;
                 }
             }
         }
-        return nums[(nums.length)/2];
+        return nums.length%2==1? nums[(nums.length-1)/2] :
+                (nums[(nums.length)/2]+nums[(nums.length-1)/2])/2;
     }
 }
