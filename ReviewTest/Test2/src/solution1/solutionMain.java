@@ -26,14 +26,14 @@ public class solutionMain {
         while (scan.hasNext()) {
             int n = scan.nextInt();
             int v = scan.nextInt();
-            int[] arr1 = new int[n];
-            int[] arr2 = new int[v];
-            for(int i = 0; i<n; i++){
-                arr1[i] = scan.nextInt();
-            }
-            for(int i = 0; i<v; i++){
-                arr2[i] = scan.nextInt();
-            }
+            int[] arr1 = {1,2};
+            int[] arr2 = {3,4};
+//            for(int i = 0; i<n; i++){
+//                arr1[i] = scan.nextInt();
+//            }
+//            for(int i = 0; i<v; i++){
+//                arr2[i] = scan.nextInt();
+//            }
             System.out.println(findMedianSortedArrays(arr1, arr2));
         }
     }
@@ -101,7 +101,6 @@ public class solutionMain {
                 }
             }
         }
-        return nums.length%2==1? nums[(nums.length-1)/2] :
-                (nums[(nums.length)/2]+nums[(nums.length-1)/2])/2;
+        return nums.length%2==1? nums[(nums.length-1)/2] : (nums[nums.length/2]+nums[(nums.length-2)/2])/2.0;
     }
 }
