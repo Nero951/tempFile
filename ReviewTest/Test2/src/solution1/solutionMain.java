@@ -37,7 +37,7 @@ public class solutionMain {
             System.out.println(findMedianSortedArrays(arr1, arr2));
         }
     }
-    //TODO 火车进站
+    //火车进站
     static void trainIntoStation(int[] train, int i, Stack<Integer> stack, String str, int n){
         if(n==train.length){
             list.add(str);
@@ -54,7 +54,7 @@ public class solutionMain {
         }
 
     }
-    //TODO 二叉树的镜像
+    //二叉树的镜像
     static void Mirror(MyTreeNode root){
         if (root == null)
             return;
