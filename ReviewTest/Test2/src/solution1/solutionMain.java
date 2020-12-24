@@ -54,7 +54,7 @@ public class solutionMain {
         }
 
     }
-    //二叉树的镜像
+    //镜像二叉树
     static void Mirror(MyTreeNode root){
         if (root == null)
             return;
