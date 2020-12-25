@@ -24,17 +24,20 @@ public class solutionMain {
 //        int[] arr = {1,1,2,3,7,7,7,9,9,10};
 //        System.out.println(upper_bound_(n, v, arr));
         while (scan.hasNext()) {
-            int n = scan.nextInt();
-            int v = scan.nextInt();
-            int[] arr1 = {1,2};
-            int[] arr2 = {3,4};
+//            int n = scan.nextInt();
+//            int v = scan.nextInt();
+//            int[] arr1 = {1,2};
+//            int[] arr2 = {3,4};
+            String a = scan.next();
+            String b = scan.next();
 //            for(int i = 0; i<n; i++){
 //                arr1[i] = scan.nextInt();
 //            }
 //            for(int i = 0; i<v; i++){
 //                arr2[i] = scan.nextInt();
 //            }
-            System.out.println(findMedianSortedArrays(arr1, arr2));
+            //System.out.println(findMedianSortedArrays(arr1, arr2));
+            System.out.println(CountHuiWen(a, b));
         }
     }
     //火车进站
@@ -54,7 +57,7 @@ public class solutionMain {
         }
 
     }
-    //镜像二叉树
+    //二叉树的镜像
     static void Mirror(MyTreeNode root){
         if (root == null)
             return;
@@ -103,4 +106,28 @@ public class solutionMain {
         }
         return nums.length%2==1? nums[(nums.length-1)/2] : (nums[nums.length/2]+nums[(nums.length-2)/2])/2.0;
     }
+    //TODO 统计回文
+    static boolean isHuiWen(String str){
+        char[] strChar = str.toCharArray();
+        for (int i=0, j=strChar.length-1;i<j;i++,j--) {
+            if(strChar[i] != strChar[j]){
+                return false;
+            }
+        }
+        return true;
+    }
+    static int CountHuiWen(String a, String b){
+        StringBuilder sb = new StringBuilder(a);
+        int i = 0;
+        int count = 0;
+        while(i<sb.length()){
+            sb.insert(i, b);
+            if(isHuiWen(sb.toString())){
+                count++;
+            }
+            i++;
+        }
+        return count;
+    }
+    
 }
