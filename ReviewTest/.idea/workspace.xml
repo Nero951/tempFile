@@ -2,43 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f6ccbd3-83d9-473b-a107-c60defd41c1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test3/Test3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test3/src/Leetcode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test3/src/Nowcoder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test3/src/sort/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test3/src/sort/Math.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test3/src/sort/Insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test3/src/sort/Merge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/AntiOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/AntiOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/DeleteNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/DeleteNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/DrinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/DrinkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/FindKth.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/FindKth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/InversePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/InversePairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/MainTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/MainTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/MainTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/MainTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/MainTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/MainTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/MainTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/MainTest4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/MainTest5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/MainTest5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/MainTest6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/MainTest6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/Parenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/Parenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/PopSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/PopSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/PopSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/PopSort2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test1/src/solution/不要二.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Nowcoder/不要二.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2/src/solution/CountStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/Nowcoder/CountStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2/src/solution/EXChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/Nowcoder/EXChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2/src/solution/FeiBoNaQi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/Nowcoder/FeiBoNaQi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2/src/solution/GrayCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/Nowcoder/GrayCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2/src/solution/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/Nowcoder/Main6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2/src/solution/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/Nowcoder/Main7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2/src/solution/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/Nowcoder/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2/src/solution/MaxAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/Nowcoder/MaxAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2/src/solution/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/Nowcoder/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2/src/solution/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/Nowcoder/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2/src/solution/print.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test2/src/Nowcoder/print.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +157,7 @@
       <workItem from="1608389167065" duration="3823000" />
       <workItem from="1608457611572" duration="7183000" />
       <workItem from="1608862555125" duration="1402000" />
-      <workItem from="1608891120221" duration="1890000" />
+      <workItem from="1608891120221" duration="4028000" />
     </task>
     <servers />
   </component>
