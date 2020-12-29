@@ -4,6 +4,7 @@
     <list default="true" id="7f6ccbd3-83d9-473b-a107-c60defd41c1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test3/src/util/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test3/src/util/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test3/util/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test3/util/MyLinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.21386719" />
     <property name="project.structure.side.proportion" value="0.17073172" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.solutionMain">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -156,7 +157,7 @@
       <workItem from="1608389167065" duration="3823000" />
       <workItem from="1608457611572" duration="7183000" />
       <workItem from="1608862555125" duration="1402000" />
-      <workItem from="1608891120221" duration="9714000" />
+      <workItem from="1608891120221" duration="12849000" />
     </task>
     <servers />
   </component>
@@ -176,10 +177,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="383" y="86" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.768@0.0.1366.768" timestamp="1608121415890" />
-    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1607426707564">
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1609167893759">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1607426707564" />
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1609167893759" />
     <state width="1308" height="143" key="GridCell.Tab.0.bottom" timestamp="1608863988633">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -212,10 +213,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="239" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1606908540209" />
-    <state x="211" y="0" key="SettingsEditor" timestamp="1609155005386">
+    <state x="211" y="0" key="SettingsEditor" timestamp="1609167967233">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="211" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1609155005386" />
+    <state x="211" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1609167967233" />
     <state x="414" y="150" key="extract.method.dialog" timestamp="1607431051762">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -224,9 +225,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="0" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1608982784311" />
-    <state x="284" y="203" width="741" height="309" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607427267401">
+    <state x="284" y="203" width="756" height="309" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1609167965566">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="284" y="203" width="741" height="309" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.768@0.0.1366.768" timestamp="1607427267401" />
+    <state x="284" y="203" width="756" height="309" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.768@0.0.1366.768" timestamp="1609167965566" />
   </component>
 </project>

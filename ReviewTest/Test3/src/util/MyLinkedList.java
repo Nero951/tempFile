@@ -102,4 +102,26 @@ public class MyLinkedList {
         }
         return false;
     }
+    public String get(int index){
+        if(index<0 || index>=size()){
+            throw new IndexOutOfBoundsException("index位置不合法："+ index);
+        }
+        Node cur = head;
+        while(index>0){
+            cur = cur.next;
+        }
+        return cur.val;
+    }
+    public String set(int index, String e){
+        if(index<0 || index>=size()){
+            throw new IndexOutOfBoundsException("index位置不合法："+ index);
+        }
+        Node cur = head;
+        while(index>0){
+            cur = cur.next;
+        }
+        String oldVal = cur.val;
+        cur.val = e;
+        return oldVal;
+    }
 }
