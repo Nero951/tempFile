@@ -124,4 +124,28 @@ public class MyLinkedList {
         cur.val = e;
         return oldVal;
     }
+    public int indexOf(String e){
+        Node cur = head;
+        for(int i=0; i<size(); i++){
+            if(cur.val.equals(e)){
+                return i;
+            }
+            cur = cur.next;
+        }
+        return -1;
+    }
+    public int lastIndexOf(String e){
+        Node cur = last;
+        for(int i=size()-1; i>=0; i--){
+            if(cur.val.equals(e)){
+                return i;
+            }
+            cur = cur.prev;
+        }
+        return -1;
+    }
+
+    public boolean isEmpty(){
+        return size() == 0;
+    }
 }
