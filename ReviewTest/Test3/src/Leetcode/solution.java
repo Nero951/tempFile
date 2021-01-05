@@ -1,10 +1,13 @@
 package Leetcode;
 
-import java.util.LinkedList;
+import util.MyLinkedList;
+import util.Node;
 
 public class solution {
-    public static LinkedList<Integer> listReverse(LinkedList<Integer> list){
+    public Node listReverse(Node node){
+        MyLinkedList list = new MyLinkedList();
+        Node cur = node;
 
-        return list;
+        return cur;
     }
 }
