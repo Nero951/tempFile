@@ -25,5 +25,5 @@ public class MineSolution {
         return node;
     }
     //TODO 微信红包
-    
+
 }

@@ -2,67 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f6ccbd3-83d9-473b-a107-c60defd41c1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test3/src/util/solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test3/src/util/solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/AntiOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/DrinkTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/FindKth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/InversePairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/META-INF/Test1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/MainTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/MainTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/MainTest3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/MainTest4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Math/Swap/Swap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/AntiOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/DeleteNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/DrinkTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/FindKth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/InversePairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/Parenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/PopSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/PopSort2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/不要二.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Parenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Sort/PopSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Sort/sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/META-INF/Test2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/CountStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/EXChange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/FeiBoNaQi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/GrayCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/Main6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/Main7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/MaxAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/print.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/Main1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/Min.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/MyTreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/UnusualAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/minSort$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/minSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/solutionMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test3/META-INF/Test3.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +170,7 @@
       <workItem from="1610112350889" duration="56000" />
       <workItem from="1610112435872" duration="46000" />
       <workItem from="1610112991385" duration="1271000" />
-      <workItem from="1610114542877" duration="4794000" />
+      <workItem from="1610114542877" duration="5410000" />
     </task>
     <servers />
   </component>
