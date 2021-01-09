@@ -1,6 +1,9 @@
 package util;
 
-public class solution {
+/**
+ * @author Wade Winston Wilson
+ */
+public class MineSolution {
     public void listReverse(Node node){
         Node cur = node;
         Node next = cur.next;
@@ -22,5 +25,5 @@ public class solution {
         return node;
     }
     //TODO 微信红包
-    //TODO leetcode
+    
 }

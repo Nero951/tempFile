@@ -2,8 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f6ccbd3-83d9-473b-a107-c60defd41c1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test3/src/util/solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test3/src/util/solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/AntiOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/DrinkTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/FindKth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/InversePairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/META-INF/Test1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/MainTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/MainTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/MainTest3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/MainTest4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Math/Swap/Swap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/AntiOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/DeleteNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/DrinkTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/FindKth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/InversePairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MainTest6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/Parenthesis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/PopSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/PopSort2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Nowcoder/不要二.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Parenthesis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Sort/PopSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Sort/sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/META-INF/Test2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/CountStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/EXChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/FeiBoNaQi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/GrayCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/Main6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/Main7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/MaxAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/Nowcoder/print.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/Main1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/Min.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/MyTreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/UnusualAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/minSort$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/minSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test2/solution1/solutionMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test3/META-INF/Test3.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +99,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -54,7 +112,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.21386719" />
     <property name="project.structure.side.proportion" value="0.17073172" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -132,6 +190,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -161,7 +220,16 @@
       <workItem from="1609590840761" duration="310000" />
       <workItem from="1609670645941" duration="3657000" />
       <workItem from="1609756705999" duration="6275000" />
-      <workItem from="1610018233417" duration="1968000" />
+      <workItem from="1610018233417" duration="2149000" />
+      <workItem from="1610103135494" duration="784000" />
+      <workItem from="1610108537738" duration="466000" />
+      <workItem from="1610111322280" duration="120000" />
+      <workItem from="1610111912498" duration="41000" />
+      <workItem from="1610112106104" duration="103000" />
+      <workItem from="1610112350889" duration="56000" />
+      <workItem from="1610112435872" duration="46000" />
+      <workItem from="1610112991385" duration="1271000" />
+      <workItem from="1610114542877" duration="4794000" />
     </task>
     <servers />
   </component>
@@ -169,6 +237,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="42" key="#Notifications" timestamp="1610114605352">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" key="#Notifications/0.0.1366.768@0.0.1366.768" timestamp="1610114605352" />
     <state x="275" y="42" key="#Project_Structure" timestamp="1606209207118">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -181,10 +253,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="383" y="86" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.768@0.0.1366.768" timestamp="1608121415890" />
-    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1609167893759">
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1610113216163">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1609167893759" />
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1610113216163" />
     <state width="1308" height="143" key="GridCell.Tab.0.bottom" timestamp="1609916789473">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -217,10 +289,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1324" height="239" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1606908540209" />
-    <state x="211" y="0" key="SettingsEditor" timestamp="1609167967233">
+    <state x="301" y="0" key="SettingsEditor" timestamp="1610114406936">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="211" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1609167967233" />
+    <state x="301" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1610114406936" />
     <state x="414" y="150" key="extract.method.dialog" timestamp="1607431051762">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
