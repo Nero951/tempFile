@@ -10,7 +10,15 @@ public class BalanceTree {
         if(root == null){
             return true;
         }
-        
+
         return false;
+    }
+    public void treeIndex(TreeNode root){
+        if(root.left!=null){
+            treeIndex(root.left);
+        }
+        if(root.right!=null){
+            treeIndex(root.right);
+        }
     }
 }
