@@ -11,9 +11,12 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         while(scan.hasNext()){
             int num = scan.nextInt();
+            String str = scan.nextLine();
             TreeNode root = new TreeNode(num);
             BalanceTree b = new BalanceTree();
             b.isBalance(root);
+            System.out.println(NumAdd.numSquareAdd(num));
+
         }
     }
 }
