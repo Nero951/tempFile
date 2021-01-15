@@ -16,7 +16,6 @@ public class Main {
             BalanceTree b = new BalanceTree();
             b.isBalance(root);
             System.out.println(NumAdd.numSquareAdd(num));
-
         }
     }
 }
