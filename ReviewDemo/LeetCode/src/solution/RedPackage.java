@@ -5,5 +5,4 @@ package solution;
  * @create: 2021/1/10
  */
 public class RedPackage {
-
 }
