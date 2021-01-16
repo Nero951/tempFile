@@ -11,7 +11,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         while(scan.hasNext()){
             int num = scan.nextInt();
-//            String str = scan.nextLine();
+
             int[] arr = new int[num];
             for(int i = 0; i<num; i++){
                 arr[i] = scan.nextInt();
