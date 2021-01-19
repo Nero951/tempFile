@@ -1,10 +1,19 @@
 package solution;
 
+import java.util.Scanner;
+
 /**
  * @author: Wade
  * @create: 2021/1/18
  */
 public class CountTwo {
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        while(scan.hasNext()){
+            int num = scan.nextInt();
+            System.out.println(countNumberOf2s(num));
+        }
+    }
     public static int countNumberOf2s(int n){
         int i=0;
         int count = 0;
