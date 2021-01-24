@@ -12,7 +12,6 @@ public class ArrayMid {
             if(arr1[i]<arr2[i]){
                 arr[i]=arr1[i];
             }
-
         }
         return arr;
 
