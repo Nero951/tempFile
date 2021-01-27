@@ -1,5 +1,8 @@
 package database;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author: Wade
  * @create: 2021/1/24
@@ -13,5 +16,6 @@ class MyArray{
  * @author Wade Winston Wilson
  */
 public class MyArrayList {
+    List<Integer> list = new ArrayList<>();
 
 }
