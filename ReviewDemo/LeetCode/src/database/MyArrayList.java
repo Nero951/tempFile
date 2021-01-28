@@ -18,4 +18,7 @@ class MyArray{
 public class MyArrayList {
     List<Integer> list = new ArrayList<>();
 
+    public static void main(String[] args) {
+
+    }
 }
