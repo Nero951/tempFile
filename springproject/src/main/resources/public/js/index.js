@@ -1,5 +1,22 @@
 function logout(){
-    alert("跳转成功")
+    //发送一个ajax请求，后端删除session，前端解析响应数据，跳转到首页
+    $.ajax({
+        url: "../api/user/logout",
+        success: function (r){
+            if(r.success){
+                window.location.href = "../index.html";
+            }else{
+                alert("错误码:"+r.code+" 错误信息:"+r.message);
+            }
+        },
+        error: function (req, textStatus, err) {
+            if(err!=undefined && err!=null){
+                alert(err)
+            }else{
+                alert(req.status)
+            }
+        }
+    })
 }
 $(function () {
     $.ajax({

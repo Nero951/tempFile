@@ -3,6 +3,7 @@ package org.example.controller;
 import org.example.data.Data;
 import org.example.model.User;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -33,4 +34,18 @@ public class ArticleController {
         map.put("articles", Data.allArticles());
         return map;
     }
+
+    @GetMapping("/queryByUser")
+    public Object queryByUser(HttpSession session){
+        //数据库通过登录用户Id查询对应的文章
+        User user = (User)session.getAttribute("user");
+        //返回模拟的文章数据
+        return Data.allArticlesByUser();
+    }
+
+    @GetMapping("/query/{id}")
+    public Object queryById(@PathVariable Integer id){
+        return Data.allArticlesByUser().get(0);
+    }
+
 }
