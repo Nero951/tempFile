@@ -4,15 +4,29 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import java.io.Serializable;
+import java.util.Date;
 
 @Getter
 @Setter
 @ToString
-public class User implements Serializable {
-    private static final long serialVersionUID=1L;
-
+public class User {
+    
     private Integer id;
+
+    /**
+     * 用户账号
+     */
     private String username;
+
     private String password;
+
+    private String nickname;
+
+    private Date birthday;
+
+    private String phoneNumber;
+
+    private String email;
+
+    private String head;
 }

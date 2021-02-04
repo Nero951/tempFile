@@ -10,10 +10,16 @@ import java.util.Date;
 @Setter
 @ToString
 public class Article {
-
+    
     private Integer id;
+
     private String title;
+
     private String content;
-    private Integer userId;//用户Id
-    private Date createTime;//创建日期
+
+    private Integer userId;
+
+    private Date createTime;
+
+    private Integer viewCount;
 }

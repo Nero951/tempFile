@@ -11,6 +11,7 @@ class MyArray{
     public int[] array;
     public int size;
     public int usedSize;
+    private final int capacity = 10;
 }
 /**
  * @author Wade Winston Wilson
@@ -18,7 +19,4 @@ class MyArray{
 public class MyArrayList {
     List<Integer> list = new ArrayList<>();
 
-    public static void main(String[] args) {
-
-    }
 }
