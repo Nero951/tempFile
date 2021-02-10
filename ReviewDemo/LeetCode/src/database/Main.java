@@ -26,7 +26,7 @@ public class Main {
             }
             if(arr[i]!=i){
                 if(arr[arr[i]]!=arr[i]){
-                    swap(arr[i], arr[arr[i]]);
+                    swap(arr, arr[i], arr[arr[i]]);
                 }else {
                     return arr[i];
                 }
@@ -35,10 +35,11 @@ public class Main {
         return -1;
     }
 
-    private static void swap(int i, int i1) {
-        int tmp = i;
-        i = i1;
-        i1 = tmp;
+    private static int[] swap(int[] arr, int i, int i1) {
+        int tmp = arr[i];
+        arr[i] = arr[i1];
+        arr[i1] = tmp;
+        return arr;
     }
 
 }
