@@ -26,11 +26,9 @@ public class MyArrayList {
         return false;
     }
     public void addFirst(Object o){
-        if(array.usedSize==0){
-            array.arr[0]=o;
+        if(array.usedSize==0) {
+            array.arr[0] = o;
             array.usedSize++;
-        }else{
-
         }
     }
 
