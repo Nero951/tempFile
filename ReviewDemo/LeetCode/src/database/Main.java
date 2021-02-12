@@ -42,4 +42,9 @@ public class Main {
         return arr;
     }
 
+    public int[] twoSum(int[] nums, int target) {
+        
+        return nums;
+    }
+
 }
