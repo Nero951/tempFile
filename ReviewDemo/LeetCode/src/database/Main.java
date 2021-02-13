@@ -43,8 +43,42 @@ public class Main {
     }
 
     public int[] twoSum(int[] nums, int target) {
-        
-        return nums;
+        for(int i=0; i<nums.length; i++){
+            int n = target-nums[i];
+            for (int j=i+1; j<nums.length; j++){
+                if(nums[j]==n){
+                    return new int[]{i, j};
+                }
+            }
+        }
+        return new int[0];
     }
 
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode l = new ListNode();
+        while(l1!=null){
+            int a = l1.val+ l2.val;
+            int count =0;
+            if(a<=9){
+                lastAdd(l, a);
+            }else{
+                lastAdd(l, a%10);
+                count = a/10;
+            }
+            l1 = l1.next;
+            l2 = l2.next;
+        }
+        return l;
+    }
+    public void lastAdd(ListNode l, int val){
+        ListNode cur = l;
+        if(cur==null){
+            cur.val = val;
+        }else{
+            while(cur!=null){
+                cur = cur.next;
+            }
+            cur.val=val;
+        }
+    }
 }
