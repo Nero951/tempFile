@@ -59,11 +59,29 @@ public class Main {
         while(l1!=null){
             int a = l1.val+ l2.val;
             int count =0;
-            if(a<=9){
-                lastAdd(l, a);
+            if(count==0){
+                if(a<=9){
+                    lastAdd(l, a);
+                }else{
+                    lastAdd(l, a%10);
+                    count = a/10;
+                }
             }else{
-                lastAdd(l, a%10);
-                count = a/10;
+                if(a<=9){
+                    if(a+count<=9){
+                        lastAdd(l, a+count);
+                    }else {
+                        lastAdd(l, (a+count)%10);
+                        count=(a+count)/10;
+                    }
+                }else{
+                    if(a+count<=9){
+                        lastAdd(l, a+count);
+                    }else {
+                        lastAdd(l, (a+count)%10);
+                        count=(a+count)/10;
+                    }
+                }
             }
             l1 = l1.next;
             l2 = l2.next;
