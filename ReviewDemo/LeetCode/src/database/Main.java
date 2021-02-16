@@ -1,18 +1,21 @@
 package database;
 
 
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         while (scan.hasNext()) {
-            int n = scan.nextInt();
-            int[] arr = new int[n];
-            for (int i = 0; i<n; i++){
-                arr[i] = scan.nextInt();
-            }
-            System.out.println(readNumber(n, arr));
+//            int n = scan.nextInt();
+//            int[] arr = new int[n];
+//            for (int i = 0; i<n; i++){
+//                arr[i] = scan.nextInt();
+//            }
+//            System.out.println(readNumber(n, arr));
+            String s = scan.next();
+            System.out.println(lengthOfLongestSubstring(s));
         }
     }
 
@@ -55,48 +58,51 @@ public class Main {
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode l = new ListNode();
-        while(l1!=null){
-            int a = l1.val+ l2.val;
-            int count =0;
-            if(count==0){
-                if(a<=9){
-                    lastAdd(l, a);
-                }else{
-                    lastAdd(l, a%10);
-                    count = a/10;
-                }
-            }else{
-                if(a<=9){
-                    if(a+count<=9){
-                        lastAdd(l, a+count);
-                    }else {
-                        lastAdd(l, (a+count)%10);
-                        count=(a+count)/10;
-                    }
-                }else{
-                    if(a+count<=9){
-                        lastAdd(l, a+count);
-                    }else {
-                        lastAdd(l, (a+count)%10);
-                        count=(a+count)/10;
-                    }
-                }
+        int count =0;
+        ListNode head = null, tail = null;
+        while(l1!=null || l2!=null){
+            int n = l1==null? 0 : l1.val;
+            int m = l2==null? 0 : l2.val;
+            int a = m+n+count;
+            if(head==null){
+                head=tail=new ListNode(a%10);
+            }else {
+                tail.next=new ListNode(a%10);
+                tail=tail.next;
             }
-            l1 = l1.next;
-            l2 = l2.next;
+            count=a/10;
+            if (l1 != null) {
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                l2 = l2.next;
+            }
         }
-        return l;
+        if(count>0){
+            tail.next=new ListNode(count);
+        }
+        return head;
     }
-    public void lastAdd(ListNode l, int val){
-        ListNode cur = l;
-        if(cur==null){
-            cur.val = val;
-        }else{
-            while(cur!=null){
-                cur = cur.next;
-            }
-            cur.val=val;
+
+    public static int lengthOfLongestSubstring(String s) {
+        if(s.isEmpty()){
+            return 0;
         }
+        HashSet<Character> set = new HashSet<>();
+        StringBuilder sb = new StringBuilder();
+        int count = 0;
+        for(int i=0; i<s.length(); i++){
+            if(set.add(s.charAt(i))){
+                sb.append(s.charAt(i));
+            }else{
+                int temp = sb.length();
+                if(temp>count){
+                    count=temp;
+                }
+                sb.delete(0,sb.length());
+                set.clear();
+            }
+        }
+        return count;
     }
 }
