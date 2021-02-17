@@ -1,8 +1,7 @@
 package database;
 
 
-import java.util.HashSet;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -88,7 +87,7 @@ public class Main {
         if(s.isEmpty()){
             return 0;
         }
-        HashSet<Character> set = new HashSet<>();
+        Set<Character> set = new HashSet<>();
         StringBuilder sb = new StringBuilder();
         int count = 0;
         for(int i=0; i<s.length(); i++){
@@ -104,5 +103,11 @@ public class Main {
             }
         }
         return count;
+    }
+
+    public static int lengthOfLongestSubstring1(String s){
+        Map<Character, Integer> map = new HashMap<>();
+
+        return 0;
     }
 }
