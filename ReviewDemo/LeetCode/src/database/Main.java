@@ -14,7 +14,7 @@ public class Main {
 //            }
 //            System.out.println(readNumber(n, arr));
             String s = scan.next();
-            System.out.println(lengthOfLongestSubstring(s));
+            System.out.println(lengthOfLongestSubstring1(s));
         }
     }
 
@@ -105,8 +105,30 @@ public class Main {
         return count;
     }
 
+    /**
+     * 使用滑动窗口法解决，遍历字符串，将每一个字符作为键，位置作为值传入map，
+     * 每次传入前判断是否有已经存在相同字符，如存在，则将重复字符出现的下一位作为左边的起始位置，
+     * 将此时的遍历位置与起始位置相减得到该子串的长度，取最大值即为最长不连续子串的长度。
+     * @param s
+     * @return 最长无重复连续子串的长度
+     */
     public static int lengthOfLongestSubstring1(String s){
+        if(s.isEmpty()) return 0;
         Map<Character, Integer> map = new HashMap<>();
+        int max = 0;
+        int left = 0;
+        for(int i=0; i<s.length(); i++){
+            if(map.containsKey(s.charAt(i))){
+                left=Math.max(left, map.get(s.charAt(i))+1);
+            }
+            map.put(s.charAt(i), i);
+            max=Math.max(max, i-left+1);
+        }
+        return max;
+    }
+
+
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
         return 0;
     }
