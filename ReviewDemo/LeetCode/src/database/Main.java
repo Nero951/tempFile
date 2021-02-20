@@ -128,8 +128,17 @@ public class Main {
     }
 
 
+    /**
+     * 如果对时间复杂度的要求有 \log，通常都需要用到二分查找，这道题也可以通过二分查找实现
+     * @param nums1 有序数组
+     * @param nums2 有序数组
+     * @return 中位数
+     */
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-
+        if(nums1==null||nums2==null){
+            return 0;
+        }
+        
         return 0;
     }
 }
