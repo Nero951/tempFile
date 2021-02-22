@@ -138,7 +138,7 @@ public class Main {
         if(nums1==null||nums2==null){
             return 0;
         }
-        
+
         return 0;
     }
 }
