@@ -3,33 +3,26 @@ package database;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author: Wade
- * @create: 2021/1/24
- */
-class MyArray{
-    public Object[] arr;
-    public int size;
-    public int usedSize;
-    private final int capacity = 10;
-}
-/**
- * @author Wade Winston Wilson
- */
 public class MyArrayList {
+    public int usedSize;
+    public int[] elem;
+    public static final int intCapacity=10;
     List<Integer> list = new ArrayList<>();
-    MyArray array = new MyArray();
-    public boolean isEmpty(){
-        if(array.usedSize==0){
-            return true;
-        }
-        return false;
-    }
-    public void addFirst(Object o){
-        if(array.usedSize==0) {
-            array.arr[0] = o;
-            array.usedSize++;
-        }
+
+    public MyArrayList() {
+        elem = new int[intCapacity];
+        usedSize = 0;
     }
 
+    public boolean addFirst(int val){
+        if(usedSize==0){
+            elem[0]=val;
+            usedSize++;
+        }else{
+            for(int i=usedSize; i>0; i--){
+                elem[i] = elem[i-1];
+            }
+        }
+        return true;
+    }
 }
