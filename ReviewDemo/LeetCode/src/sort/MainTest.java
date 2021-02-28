@@ -1,6 +1,8 @@
 package sort;
 
 
+import database.HeapSort;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -18,7 +20,8 @@ public class MainTest {
 //            InsertSort.insertSort(arr);//插入排序
 //            ShellSort.shellSort(arr);//希尔排序
 //            System.out.println(Arrays.toString(MergeSort.mergeSort(arr)));//归并排序
-            QuickSort.quickSort(arr);//快速排序
+//            QuickSort.quickSort(arr);//快速排序
+            HeapSort.heapSort(arr);
             System.out.println(Arrays.toString(arr));
         }
     }
