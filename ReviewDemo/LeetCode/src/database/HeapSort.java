@@ -5,7 +5,7 @@ import sort.Swap;
 
 public class HeapSort {
     public static void heapSort(int[] arr){
-        for (int i = arr.length/2-1; i >= 0; i--) {
+        for (int i = arr.length/2; i >= 0; i--) {
             heapAdjust(arr, i, arr.length);//将数组调整为一个大根堆
         }
         for (int i = arr.length-1; i > 0; i--) {
@@ -25,7 +25,7 @@ public class HeapSort {
             Swap.swap(arr, i, max);
             heapAdjust(arr, max, length);
         }
+        
     }
-
 
 }
