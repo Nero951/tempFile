@@ -25,7 +25,7 @@ public class HeapSort {
             Swap.swap(arr, i, max);
             heapAdjust(arr, max, length);
         }
-        
+
     }
 
 }
