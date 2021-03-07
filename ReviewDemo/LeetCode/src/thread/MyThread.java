@@ -17,7 +17,7 @@ public class MyThread{
     myRunnableThread myRunnableThread = new myRunnableThread();
     Runnable runnable = new myThread();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 //        Thread t = new Thread(()->{  //Lambda表达式创建线程方式
 //            while(true) System.out.println("我是子线程");
 //        });
@@ -26,11 +26,25 @@ public class MyThread{
 //        while(true){
 //            System.out.println("我是主线程");
 //        }
-        Thread t = new exThread();
-        t.start();
+//        Thread t = new exThread();
+//        t.start();
+//        printFields();
+//
+//        while(true){
+//            try{
+//                System.out.println("挖煤");
+//                Thread.sleep(1000);
+//                System.out.println("是否停止"+ t.isInterrupted());
+//            }catch (InterruptedException e){
+//
+//            }
+//        }
 
-        printFields();
-
+        B b = new B();
+        b.start();
+        System.out.println("b不停止，我不走");
+        b.join();
+        System.out.println("b停止，我就走");
     }
     static class exThread extends Thread{
         @Override
@@ -46,5 +60,16 @@ public class MyThread{
         System.out.println("线程是否存活："+id+":"+t.isAlive());
         System.out.println("线程状态："+id+":"+t.getState());
         System.out.println("线程是否是后台线程："+id+":"+t.isDaemon());
+    }
+
+    static class B extends Thread{
+        @Override
+        public void run(){
+            long b = 0;
+            for (int i = 0; i<1000_000_000L; i++){
+                b+=i;
+            }
+            System.out.println("B停止运行");
+        }
     }
 }
