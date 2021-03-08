@@ -75,6 +75,9 @@ public class Sort {
 
     private int[] merge(int[] left, int[] right){
         int[] arr = new int[left.length+right.length];
+        int n = left.length;
+        String str = new String();
+        str.length();
         for(int index = 0, i = 0, j = 0; index<arr.length; index++){
             if(i>left.length){
                 arr[index] = right[j++];

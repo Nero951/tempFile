@@ -1,5 +1,8 @@
 package thread;
 
+import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+
 class myThread extends Thread{
     @Override
     public void run() {
@@ -40,11 +43,22 @@ public class MyThread{
 //            }
 //        }
 
-        B b = new B();
-        b.start();
-        System.out.println("b不停止，我不走");
-        b.join();
-        System.out.println("b停止，我就走");
+//        B b = new B();
+//        b.start();
+//        System.out.println("b不停止，我不走");
+//        b.join();
+//        System.out.println("b停止，我就走");
+//        System.out.println(Thread.currentThread());
+        Thread t = new subThread();
+        System.out.println(t.getState());
+        t.start();
+        System.out.println(t.getState());
+        while (t.isAlive()){
+            System.out.println(t.getState());
+            TimeUnit.SECONDS.sleep(1);
+        }
+        System.out.println(t.getState());
+
     }
     static class exThread extends Thread{
         @Override
@@ -70,6 +84,15 @@ public class MyThread{
                 b+=i;
             }
             System.out.println("B停止运行");
+        }
+    }
+
+    public static class subThread extends Thread{
+        @Override
+        public void run(){
+            Scanner scan = new Scanner(System.in);
+            scan.next();
+            System.out.println("子线程即将退出");
         }
     }
 }
