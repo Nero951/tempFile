@@ -33,15 +33,6 @@ public class Sort {
         }
     }
 
-    public void InsertSort(int[] arr){
-        for (int i = 1; i < arr.length; i++) {
-            for (int j = i-1; j >= 0; j--) {
-                if(arr[j]>arr[i]){
-
-                }
-            }
-        }
-    }
 
     public void QuickSort(int[] arr, int low, int high){
         if (low<high){
@@ -75,9 +66,6 @@ public class Sort {
 
     private int[] merge(int[] left, int[] right){
         int[] arr = new int[left.length+right.length];
-        int n = left.length;
-        String str = new String();
-        str.length();
         for(int index = 0, i = 0, j = 0; index<arr.length; index++){
             if(i>left.length){
                 arr[index] = right[j++];
@@ -92,5 +80,17 @@ public class Sort {
         return arr;
     }
 
-
+    public static void insertSort(int[] arr){
+        if(arr.length==0) return;
+        for (int i = 0; i<arr.length; i++){
+            int minKey = arr[i];
+            int j = i-1;
+            for(; j>=0; j++){
+                if(minKey < arr[j]){
+                    arr[j+1] = arr[j];
+                }
+            }
+            arr[j+1] = minKey;
+        }
+    }
 }
