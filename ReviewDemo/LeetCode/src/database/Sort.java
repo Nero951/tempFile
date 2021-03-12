@@ -44,11 +44,11 @@ public class Sort {
     private int partition(int[] arr, int low, int high) {
         int pivot = arr[low];
         while(low<high){
-            while(low<high && arr[high]>=arr[pivot]){
+            while(low<high && arr[high]>=pivot){
                 high--;
             }
             arr[low] = arr[high];
-            while(low<high && arr[low]<=arr[pivot]){
+            while(low<high && arr[low]<=pivot){
                 low++;
             }
             arr[high] = arr[low];
