@@ -1,5 +1,9 @@
+import Dao.CustomerDao;
+import Dao.CustomerDaoIml;
+
 public class MyBeanFactory {
-    public static <CustomerDao> CustomerDao getBean(){
+    public static void getBean(){
         final CustomerDao customerDao = new CustomerDaoIml();
+
     }
 }

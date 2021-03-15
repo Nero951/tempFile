@@ -44,6 +44,6 @@ public class solution {
             }
             set.add(arr[i]);
         }
-        
+        return count;
     }
 }
