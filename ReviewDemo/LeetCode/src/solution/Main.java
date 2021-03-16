@@ -26,6 +26,19 @@ public class Main {
 //            BalanceTree b = new BalanceTree();
 //            b.isBalance(root);
             //System.out.println(NumAdd.numSquareAdd(num));
+        System.out.println(brokenCount(3, 10));
 //        }
+    }
+    public static int brokenCount(int X, int Y){
+        int count = 0;
+        while(Y>X){
+            X=X<<1;
+            count++;
+        }
+        while(X>Y){
+            X-=1;
+            count++;
+        }
+        return count;
     }
 }
