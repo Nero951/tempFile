@@ -1,5 +1,10 @@
 package solution;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * @author: Wade
  * @create: 2021/1/11
@@ -41,4 +46,24 @@ public class Main {
         }
         return count;
     }
+
+    public int countStep(int val, int[] arr){
+        if(arr.length == 0 || val == 0) return 0;
+        List<Integer> list = new ArrayList<>();
+        Map<Integer, Integer> map = new HashMap<>();
+        int count = 0;
+        for(int i = 0; i < arr.length; i++){
+//            if(list!=null && list.contains(arr[i])){
+//
+//            }
+            if(map != null && map.containsValue(arr[i])){
+                
+            }
+            list.add(arr[i]);
+            count++;
+        }
+        return 0;
+    }
+
+
 }
