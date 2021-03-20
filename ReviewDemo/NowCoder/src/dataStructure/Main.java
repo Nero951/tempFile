@@ -4,6 +4,7 @@ package dataStructure;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Main {
     static int calcSimilarity(String name1, String name2) {
@@ -119,5 +120,17 @@ public class Main {
 
     public static void maxWaterCap(){
 
+    }
+    public boolean isPalindrome(int x) {
+        if(x<0) return false;
+        String str = String.valueOf(x);
+        Stack<Character> stack = new Stack<>();
+        for(int i = 0; i < str.length(); i++){
+            stack.push(str.charAt(i));
+        }
+        for(int i = 0; i < str.length(); i++){
+            if(stack.pop()!=str.charAt(i)) return false;
+        }
+        return true;
     }
 }
