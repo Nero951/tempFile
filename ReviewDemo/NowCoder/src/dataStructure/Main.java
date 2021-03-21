@@ -133,4 +133,18 @@ public class Main {
         }
         return true;
     }
+    public int xorOperation(int n, int start) {
+        int[] nums = new int[n];
+        int sum = 0;
+        for(int i = 0; i < n; i++){
+            nums[i] = start+2*i;
+            sum = sum^nums[i];
+        }
+        return sum;
+    }
+
+    public String[] getFolderNames(String[] names) {
+
+        return null;
+    }
 }
