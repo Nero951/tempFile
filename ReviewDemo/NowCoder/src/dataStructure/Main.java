@@ -42,16 +42,18 @@ public class Main {
         while (in.hasNextLine()) {
 //            String name1 = in.nextLine();
 //            String name2 = in.nextLine();
+            solution s = new solution();
 //
 //            int sum = calcSimilarity(name1, name2);
 //            System.out.println(sum);
-            int count = in.nextInt();
+//            int count = in.nextInt();
             int num = in.nextInt();
             int[] arr = new int[num];
             for (int i = 0; i < num; i++) {
                 arr[i] = in.nextInt();
             }
-            System.out.println(countNum(arr, count));
+//            System.out.println(countNum(arr, count));
+            System.out.println(s.findRepeatNumber(arr));
         }
     }
 
