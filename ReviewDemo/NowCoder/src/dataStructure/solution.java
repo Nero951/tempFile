@@ -51,17 +51,43 @@ public class solution {
     //    if(n<=2) return 1;
     //    return fib(n-1)+fib(n-2);
     //}
+//    public int fib(int n) {
+//        int[] arr = new int[n];
+//        if(n==0) return 0;
+//        int i = 0;
+//        for(; i < n; i++){
+//            if(i<2){
+//                arr[i] = 1;
+//                continue;
+//            }
+//            arr[i] = arr[i-1] + arr[i-2];
+//        }
+//        return arr[i-1];
+//    }
     public int fib(int n) {
-        int[] arr = new int[n];
         if(n==0) return 0;
-        int i = 0;
-        for(; i < n; i++){
-            if(i<2){
-                arr[i] = 1;
-                continue;
-            }
-            arr[i] = arr[i-1] + arr[i-2];
+        int a = 0, b = 1, sum;
+        for(int i = 0; i < n; i++){
+            sum = (a+b)%1000000007;
+            a = b;
+            b = sum;
         }
-        return arr[i-1];
+        return a;
+    }
+
+    public int minArray(int[] numbers) {
+        if(numbers.length==0) return 0;
+        int low = 0;
+        int high = numbers.length-1;
+        while(low<high){
+            int pivot = low + (high-low)/2;
+            if(numbers[pivot] < numbers[high])
+                pivot = high;
+            else if(numbers[pivot] > numbers[high])
+                low = pivot+1;
+            else
+                high-=1;
+        }
+        return numbers[low];
     }
 }
