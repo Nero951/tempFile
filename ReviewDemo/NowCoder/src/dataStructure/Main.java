@@ -141,4 +141,44 @@ public class Main {
         }
         return sum;
     }
+
+    public boolean findNumberIn2DArray(int[][] matrix, int target) {
+        if(matrix == null || matrix.length == 0 || matrix[0].length == 0) return false;
+
+        int rows = matrix.length, columns = matrix[0].length;
+        int row = 0, column = matrix[0].length-1;
+        while(row < rows){
+            if(matrix[row][column] == target) return true;
+            else if(matrix[row][column] < target) row+=1;
+            else column-=1;
+        }
+        return false;
+    }
+
+    public String replaceSpace(String s) {
+//        if(s == null) return null;
+//        String tmp = s.replaceAll(" ", "%20");
+//        return tmp;
+        if(s==null) return null;
+        char[] ch = new char[s.length()*3];
+        int size = 0;
+        for(char C: s.toCharArray()){
+            char c = C;
+            if(c==' '){
+                ch[size++] = '%';
+                ch[size++] = '2';
+                ch[size++] = '0';
+            }else{
+                ch[size++] = c;
+            }
+            // ch[size++] = c;
+        }
+        return new String(ch, 0, size);
+    }
+    class ListNode {
+      int val;
+      ListNode next;
+      ListNode(int x) { val = x; }
+  }
+
 }
