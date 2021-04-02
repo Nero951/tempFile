@@ -175,10 +175,4 @@ public class Main {
         }
         return new String(ch, 0, size);
     }
-    class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-  }
-
 }
