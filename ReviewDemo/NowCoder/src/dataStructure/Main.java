@@ -175,4 +175,14 @@ public class Main {
         }
         return new String(ch, 0, size);
     }
+    class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode(int x) { val = x; }
+    }
+    
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+
+    }
 }
