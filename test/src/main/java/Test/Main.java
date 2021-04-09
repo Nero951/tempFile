@@ -16,7 +16,7 @@ class Outer{
      }
 }
 public class Main {
-    public static int hammingWeight(int n) {
+    public static int hammingWeight1(int n) {
         int count = 0;
         while(n!=0){
             if((n&1)==1){
@@ -26,7 +26,15 @@ public class Main {
         }
         return count;
     }
-
+    public static int hammingWeight(int n) {
+        if(n==0) return 0;
+        int count = 0;
+        String str = String.valueOf(n);
+        for(char c : str.toCharArray()){
+            if(c=='1') count++;
+        }
+        return count;
+    }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         while(scan.hasNext()){
