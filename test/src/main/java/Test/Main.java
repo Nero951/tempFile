@@ -33,7 +33,8 @@ public class Main {
         for(char c : str.toCharArray()){
             if(c=='1') count++;
         }
-        return count;
+        return Integer.bitCount(n);
+//        return count;
     }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
