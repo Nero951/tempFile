@@ -43,4 +43,12 @@ public class Main {
             System.out.println(hammingWeight(n));
         }
     }
+    public static int hammingWeight2(int n) {
+        int count = 0;
+        String str = String.valueOf(n);
+        for(char c : str.toCharArray()){
+            if(c=='1') count++;
+        }
+        return Integer.bitCount(n);
+    }
 }
