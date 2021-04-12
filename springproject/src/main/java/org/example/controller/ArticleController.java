@@ -57,6 +57,4 @@ public class ArticleController {
         Article article = articleService.queryById(id);
         return article;
     }
-
-
 }
