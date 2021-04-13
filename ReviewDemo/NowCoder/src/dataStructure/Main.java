@@ -215,4 +215,28 @@ public class Main {
         }
         return res;
     }
+    public int hammingWeight1(int n) {
+        int res = 0;
+        while(n!=0){
+            res += 1;
+            n=n&(n-1);
+        }
+        return res;
+    }
+
+    public double myPow(double x, int n) {
+        if(x==0) return 0;
+        long m = n;
+        double res = 1.0;
+        if(m<0){
+            x = 1/x;
+            m = -m;
+        }
+        while(m!=0){
+            if((m&1)==1) res *= x;
+            x*=x;
+            m>>=1;
+        }
+        return res;
+    }
 }
