@@ -51,6 +51,9 @@ public class Main {
         return ans;
     }
     public int threeSumClosest(int[] nums, int target) {
-
+        return 0;
+    }
+    public List<String> letterCombinations(String digits) {
+        return null;
     }
 }
