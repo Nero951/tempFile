@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
     }
-    public List<List<Integer>> threeSum(int[] nums) {
+    public List<List<Integer>> threeSum1(int[] nums) {
         if(nums==null) return null;
 
         return null;
