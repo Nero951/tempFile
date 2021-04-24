@@ -71,8 +71,9 @@ public class MainMethods {
 //        int[] arr = new int[nums.length];
         List<Integer> list = new ArrayList<>();
         for(int key : map.keySet()){
-            
-        }
+            List<Integer> list1 = new ArrayList<>();
+
+         }
         return null;
     }
 }
