@@ -74,6 +74,19 @@ public class MainMethods {
             List<Integer> list1 = new ArrayList<>();
 
          }
+        map.keySet();
+        String str1 = new String("Hello world");
+        String str2 = new String("lo");
+        str1.split(str2);
+        str1.replaceAll(str2, "");
         return null;
+    }
+    public List<Character> func(String str1, String str2){
+        List<Character> list = new ArrayList<>();
+        for(char c : str1.toCharArray()){
+            if(!str2.contains(c+""))
+                list.add(c);
+        }
+        return list;
     }
 }

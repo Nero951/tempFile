@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class Sort {
     public static void main(String[] args){
@@ -13,7 +12,9 @@ public class Sort {
             mainSort s = new mainSort();
 //            s.bubbleSort(arr);
 //            s.quickSort(arr);
-            s.selectSort(arr);
+//            s.selectSort(arr);
+            List<Integer> list = new ArrayList<>();
+
             System.out.println(Arrays.toString(arr));
         }
     }
@@ -70,5 +71,23 @@ class mainSort{
                 }
             }
         }
+    }
+
+    public void insertSort(int[] arr){
+        if(arr.length<2) return;
+        for(int i = 0; i < arr.length; i++){
+            int tmp = arr[i];
+            int j;
+            for(j = i-1; j>=0; j--){
+                if(arr[j]>tmp)
+                    arr[j+1]=arr[j];
+                else break;
+            }
+            arr[j+1]=tmp;
+        }
+    }
+
+    public void CollectionsSort(List<Integer> list){
+        Collections.sort(list);
     }
 }
