@@ -29,4 +29,14 @@ public class MyTree {
         System.out.println(root.val);
     }
 
+    public static void main(String[] args) {
+        int[] arr = {1,2,23};
+        try{
+            System.out.println(arr[4]);
+        }catch (NullPointerException | ArrayIndexOutOfBoundsException e){
+            e.printStackTrace();
+        }finally{
+            System.out.println(arr[2]);
+        }
+    }
 }
