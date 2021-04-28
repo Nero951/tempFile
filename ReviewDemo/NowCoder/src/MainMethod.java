@@ -1,6 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class MainMethod {
     public static void main(String[] args) {
@@ -72,4 +70,36 @@ public class MainMethod {
         return true;
     }
 
+    public static void main1(String[] args) {
+        Random random = new Random();
+        Set<Integer> set = new HashSet<>();
+        List<Integer> list = new ArrayList<>();
+        Map<Integer, Integer> map = new HashMap<>();
+        int count = 0;
+        for(int i = 0; i < 10_0000; i++){
+            list.add(random.nextInt(6000));
+        }
+        for(Integer i : list){
+            if(!map.containsKey(i)){
+                map.put(i, 1);
+            }else {
+                map.put(i, map.get(i)+1);
+            }
+        }
+        for(Map.Entry<Integer, Integer> map1 : map.entrySet()){
+            System.out.println(map1.getKey()+"该数字出现的次数"+map1.getValue());
+        }
+    }
+
+    public int singleNumber(int[] arr){
+        Set<Integer> set = new HashSet<>();
+        for(int i : arr){
+            if(set!=null && set.contains(i)){
+                set.remove(i);
+            }
+            set.add(i);
+        }
+        Iterator<Integer> it = set.iterator();
+        return it.next();
+    }
 }
