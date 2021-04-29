@@ -88,6 +88,7 @@ class mainSort{
     }
 
     public void CollectionsSort(List<Integer> list){
+
         Collections.sort(list);
     }
 }

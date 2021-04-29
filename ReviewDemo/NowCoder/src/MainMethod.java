@@ -102,4 +102,20 @@ public class MainMethod {
         Iterator<Integer> it = set.iterator();
         return it.next();
     }
+    static class Node{
+        int val;
+        Node next;
+    }
+    public Node reverseNode(Node head){
+        if(head==null || head.next==null) return head;
+        Node cur = null;
+        Node tmp = head;
+        while(head!=null){
+            head.next = cur;
+            tmp = tmp.next;
+            cur = head;
+            head = tmp;
+        }
+        return cur;
+    }
 }
