@@ -86,9 +86,10 @@ class mainSort{
             arr[j+1]=tmp;
         }
     }
+    public int[] topKFrequent(int[] nums, int k) {
+        if(nums.length < k) return null;
 
-    public void CollectionsSort(List<Integer> list){
-
-        Collections.sort(list);
+        
+        return null;
     }
 }
