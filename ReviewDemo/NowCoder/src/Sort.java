@@ -88,7 +88,13 @@ class mainSort{
     }
     public int[] topKFrequent(int[] nums, int k) {
         if(nums.length < k) return null;
-
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int n : nums){
+            if(map.containsKey(n)){
+                map.put(n, map.get(n)+1);
+            }
+            map.put(n, 1);
+        }
         
         return null;
     }
