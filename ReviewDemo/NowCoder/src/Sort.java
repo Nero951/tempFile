@@ -95,7 +95,10 @@ class mainSort{
             }
             map.put(n, 1);
         }
-        
+        List<Integer> list = new ArrayList<>();
+        for(int n : map.keySet()){
+            list.add(map.get(n));
+        }
         return null;
     }
 }
