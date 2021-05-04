@@ -99,6 +99,11 @@ class mainSort{
         for(int n : map.keySet()){
             list.add(map.get(n));
         }
+        Queue<Integer> queue = new PriorityQueue<>();
+        for(int n : map.keySet()){
+            queue.add(map.get(n));
+        }
+
         return null;
     }
 }
