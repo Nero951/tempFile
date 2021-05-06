@@ -99,11 +99,15 @@ class mainSort{
         for(int n : map.keySet()){
             list.add(map.get(n));
         }
-        Queue<Integer> queue = new PriorityQueue<>();
+        Queue<Integer> queue = new PriorityQueue<>(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return map.get(o1)-map.get(o2);
+            }
+        });
         for(int n : map.keySet()){
             queue.add(map.get(n));
         }
-
         return null;
     }
 }
