@@ -92,12 +92,9 @@ class mainSort{
         for(int n : nums){
             if(map.containsKey(n)){
                 map.put(n, map.get(n)+1);
+            }else {
+                map.put(n, 1);
             }
-            map.put(n, 1);
-        }
-        List<Integer> list = new ArrayList<>();
-        for(int n : map.keySet()){
-            list.add(map.get(n));
         }
         Queue<Integer> queue = new PriorityQueue<>(new Comparator<Integer>() {
             @Override
@@ -106,8 +103,17 @@ class mainSort{
             }
         });
         for(int n : map.keySet()){
-            queue.add(map.get(n));
+            if(queue.size()<k){
+                queue.add(n);
+            }else if(map.get(n)>map.get(queue.peek())){
+                queue.remove();
+                queue.add(n);
+            }
         }
-        return null;
+        int[] res = new int[queue.size()];
+        for(int i = 0; !queue.isEmpty(); i++){
+            res[i] = queue.remove();
+        }
+        return res;
     }
 }
